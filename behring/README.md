@@ -40,7 +40,7 @@ traduzível carrega `data-i18n="chave"`; atributos usam
 são traduzidas — são nós `<text>` com `data-i18n`.
 
 Os dicionários são inline (não são buscados por `fetch`) justamente para a página
-funcionar aberta do disco. São 212 chaves, com paridade entre os três idiomas.
+funcionar aberta do disco. São 238 chaves, com paridade entre os três idiomas.
 
 ## Identidade
 
@@ -67,17 +67,20 @@ técnico do resto da página. Nenhuma tela de produto foi recriada ou inventada.
 Para trocar por imagens reais depois, substitua o conteúdo de `<figure class="draw">`
 por um `<img>`; o quadro e o espaçamento continuam valendo.
 
-## Placeholders a substituir
+A única exceção ao carmim está na prancha 05: o desenho traz três amostras com a
+paleta real do blog do Daquisu, lida do próprio site (`#3f513d`, `#9bab99` e
+`#f9f1dc`). É uma especificação de cor dentro do desenho, como numa prancha de
+projeto, e não cor de página.
 
-| Placeholder | Onde aparece |
+## Pendências
+
+| Item | Onde aparece |
 |---|---|
-| `[LINK-WEB]` | Prancha 01, Cuco Calendar |
-| `[LINK-ANDROID]` | Prancha 01, botão da Google Play |
-| `[LINK-IOS]` | Prancha 01, botão da App Store |
 | `[LINK-FEEDBACK]` | Seção Contato |
+| `/behring/projeto06` | Prancha 06: a página com as pranchas técnicas e as fotos do resultado ainda precisa ser criada |
 
 Há também um espaço marcado como **prova social futura** na lista de
-reconhecimentos — está vazio de propósito, sem número, depoimento ou logotipo
+reconhecimentos. Está vazio de propósito, sem número, depoimento ou logotipo
 inventado.
 
 ## Regras de conteúdo respeitadas

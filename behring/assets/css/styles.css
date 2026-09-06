@@ -330,6 +330,19 @@ a:hover { text-decoration-color: currentColor; }
   font-variant-numeric: tabular-nums;
   padding-top: .3em;
 }
+/* a linha da Serinus carrega o peso: fundo de papel e fio carmim na lateral */
+.time__row--lead {
+  background: var(--paper);
+  box-shadow: inset 3px 0 0 var(--crimson);
+  /* sangra para os lados na mesma medida do respiro, para o texto continuar
+     alinhado com as linhas de baixo em vez de recuar */
+  padding: 1.9rem 1.25rem;
+  margin-inline: -1.25rem;
+  margin-bottom: .4rem;
+}
+.time__row--lead .time__what h3 { font-size: 1.45rem; }
+.time__row--lead .time__what p:last-child { font-size: 1.09rem; }
+
 .time__what h3 { font-size: 1.25rem; margin-bottom: .35rem; }
 .time__where {
   font-size: var(--t-label); letter-spacing: .06em;
