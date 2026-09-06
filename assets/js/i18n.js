@@ -280,7 +280,6 @@
     'met.recog.4': 'Instrutora do curso de Archicad para iniciantes na FAU USP',
     'met.recog.5': 'Design for Emergency: projeto selecionado e publicação no Jornal da USP',
     'met.recog.6': 'Hackathon NASA Space Apps, desafio covid-19: protótipo de um vestível que transmite batimentos',
-    'met.recog.ph': 'Espaço reservado para prova social futura',
 
     'cta.title': 'Contato',
     'cta.lead':
@@ -553,7 +552,6 @@
     'met.recog.4': 'Instructor of the beginners Archicad course at FAU USP',
     'met.recog.5': 'Design for Emergency: selected project, covered in Jornal da USP',
     'met.recog.6': 'NASA Space Apps hackathon, covid-19 challenge: prototype of a wearable that transmits heartbeats',
-    'met.recog.ph': 'Space reserved for future social proof',
 
     'cta.title': 'Contact',
     'cta.lead':
@@ -826,7 +824,6 @@
     'met.recog.4': 'Instructora del curso de Archicad para principiantes en la FAU USP',
     'met.recog.5': 'Design for Emergency: proyecto seleccionado y publicación en el Jornal da USP',
     'met.recog.6': 'Hackathon NASA Space Apps, desafío covid-19: prototipo de un wearable que transmite latidos',
-    'met.recog.ph': 'Espacio reservado para prueba social futura',
 
     'cta.title': 'Contacto',
     'cta.lead':

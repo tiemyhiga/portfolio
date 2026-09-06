@@ -458,14 +458,6 @@ a:hover { text-decoration-color: currentColor; }
 
 .links { display: flex; flex-wrap: wrap; gap: .5rem 1.35rem; font-size: var(--t-small); margin-top: 1.3rem; }
 .links a { white-space: nowrap; }
-.links .ph {
-  color: var(--ink-soft);
-  text-decoration: none;
-  border: 1px dashed var(--rule);
-  padding: .18rem .5rem;
-  font-size: var(--t-label); letter-spacing: .04em;
-}
-.links .ph:hover { color: var(--ink-mid); border-color: var(--ink-soft); }
 
 /* ────────────────────────────────────────────────────────────── método ── */
 
@@ -497,14 +489,6 @@ a:hover { text-decoration-color: currentColor; }
   padding-top: .15em;
 }
 .deflist__v { font-size: var(--t-small); line-height: 1.45; }
-.deflist__ph { opacity: .55; }
-.deflist__ph .deflist__k { color: var(--ink-soft); }
-.deflist__ph .deflist__v {
-  border: 1px dashed var(--rule);
-  padding: .3rem .6rem;
-  font-size: var(--t-label);
-  letter-spacing: .06em; text-transform: uppercase;
-}
 
 /* ─────────────────────────────────────────────── página de projeto ── */
 
