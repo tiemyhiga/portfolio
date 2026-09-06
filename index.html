@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tiemy Higa · Designer de produto e de serviço</title>
+<meta name="description" content="Projetos selecionados de Tiemy Higa: produto digital, design de serviço e desenho técnico. Campinas, Brasil.">
+<meta name="color-scheme" content="light">
+<meta name="robots" content="noindex, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tiemy Higa · Designer de produto e de serviço">
+<meta property="og:description" content="Projetos selecionados: produto digital, design de serviço e desenho técnico.">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip" href="#conteudo" data-i18n="nav.skip">Pular para o conteúdo</a>
+
+<!-- Marca de canto: dois quadrados em degrau, o mesmo detalhe do currículo. -->
+<div class="corner corner--tl" aria-hidden="true"><i></i><i></i></div>
+<div class="corner corner--br" aria-hidden="true"><i></i><i></i></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a class="nav__brand" href="#topo">
+      <span class="nav__mark" aria-hidden="true"><i></i><i></i></span>
+      <span>Tiemy Higa</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Seções">
+      <a href="#perfil" data-i18n="nav.perfil">Perfil</a>
+      <a href="#trajetoria" data-i18n="nav.trajetoria">Trajetória</a>
+      <a href="#projetos" data-i18n="nav.projetos">Projetos</a>
+      <a href="#metodo" data-i18n="nav.metodo">Método</a>
+    </nav>
+
+    <div class="nav__end">
+      <div class="lang" data-lang-switch>
+        <button type="button" class="lang__btn" data-lang-toggle aria-expanded="false" aria-haspopup="true"
+                data-i18n-attr="aria-label:nav.langLabel">
+          <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.1">
+            <circle cx="8" cy="8" r="6.4"/><path d="M1.6 8h12.8M8 1.6c1.7 1.8 2.6 4 2.6 6.4S9.7 12.6 8 14.4C6.3 12.6 5.4 10.4 5.4 8S6.3 3.4 8 1.6Z"/>
+          </svg>
+          <span data-lang-current>PT</span>
+        </button>
+        <ul class="lang__menu" role="menu" hidden>
+          <li><button type="button" role="menuitemradio" aria-checked="true" data-lang-option="pt-BR">Português&nbsp;(BR)</button></li>
+          <li><button type="button" role="menuitemradio" aria-checked="false" data-lang-option="en-US">English&nbsp;(US)</button></li>
+          <li><button type="button" role="menuitemradio" aria-checked="false" data-lang-option="es-419">Español&nbsp;(LatAm)</button></li>
+        </ul>
+      </div>
+
+      <a class="btn btn--sm" href="#contato" data-i18n="nav.cta">Falar comigo</a>
+
+      <button type="button" class="burger" data-nav-toggle aria-expanded="false" aria-controls="nav-mobile"
+              data-i18n-attr="aria-label:nav.menuLabel">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav__mobile" id="nav-mobile" hidden>
+    <a href="#perfil" data-i18n="nav.perfil">Perfil</a>
+    <a href="#trajetoria" data-i18n="nav.trajetoria">Trajetória</a>
+    <a href="#projetos" data-i18n="nav.projetos">Projetos</a>
+    <a href="#metodo" data-i18n="nav.metodo">Método</a>
+    <a href="#contato" data-i18n="nav.cta">Falar comigo</a>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ══════════════════════════════════════════════════════ hero / folha 00 -->
+  <section class="hero" id="topo">
+    <div class="wrap hero__in">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Designer de produto e de serviço · São Paulo, Brasil</p>
+
+      <h1 class="hero__name">Tiemy Higa</h1>
+
+      <div class="hero__body">
+        <div class="hero__text">
+          <p class="hero__lead" data-i18n="hero.lead">
+            Designer que cria experiências digitais acessíveis e centradas no ser humano.
+            Liderei projetos, desenvolvi produtos do zero e comuniquei ideias entre
+            equipes multidisciplinares.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn" href="#projetos" data-i18n="hero.ctaPrimary">Ver os projetos</a>
+            <a class="btn btn--ghost" href="#contato" data-i18n="hero.ctaSecondary">Falar comigo</a>
+          </div>
+        </div>
+
+        <figure class="hero__photo">
+          <img src="assets/img/tiemy.jpg" width="450" height="600"
+               alt="Retrato de Tiemy Higa" data-i18n-attr="alt:hero.photoAlt">
+        </figure>
+      </div>
+
+      <!-- Carimbo: o bloco de legenda de uma prancha técnica. -->
+      <dl class="stamp">
+        <div>
+          <dt data-i18n="stamp.now.k">Agora</dt>
+          <dd data-i18n="stamp.now.v">Fundadora, Head of Design e CEO · Serinus Tecnologia</dd>
+        </div>
+        <div>
+          <dt data-i18n="stamp.build.k">Construindo</dt>
+          <dd data-i18n="stamp.build.v">Cuco Calendar</dd>
+        </div>
+        <div>
+          <dt data-i18n="stamp.also.k">Também</dt>
+          <dd data-i18n="stamp.also.v">Product Owner e Product Designer · Residência Tecnológica em Saúde Digital</dd>
+        </div>
+        <div>
+          <dt data-i18n="stamp.edu.k">Formação</dt>
+          <dd data-i18n="stamp.edu.v">Arquitetura, Urbanismo e Design · FAU USP</dd>
+        </div>
+        <div>
+          <dt data-i18n="stamp.lang.k">Idiomas</dt>
+          <dd data-i18n="stamp.lang.v">Português, inglês e espanhol</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════ perfil -->
+  <section class="band" id="perfil">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="sechead__num">00</span>
+        <h2 class="sechead__title" data-i18n="perfil.title">Perfil</h2>
+      </div>
+
+      <div class="cols">
+        <div class="cols__main">
+          <p class="lead" data-i18n="perfil.p1">
+            Trabalho com experiências digitais acessíveis e centradas em quem usa.
+            Gosto de estratégia de produto e de problemas reais: os que aparecem quando
+            alguém tenta fazer uma coisa simples e não consegue.
+          </p>
+          <p data-i18n="perfil.p2">
+            Meu percurso é de campo. Presidi uma empresa júnior e fundei o setor comercial dela.
+            Trabalhei com sucesso do cliente e educação numa empresa de software.
+            Abri a minha própria empresa de tecnologia, onde sou CEO e Head of Design.
+            Também sou Product Owner e Product Designer numa residência em saúde digital.
+          </p>
+          <p data-i18n="perfil.p3">
+            Estudo como o design molda comportamento e percepção. Na prática, isso vira
+            pesquisa com usuário, fluxo desenhado antes da tela, design system que aguenta
+            o time crescer e métrica que diz se a decisão foi boa.
+          </p>
+        </div>
+
+        <aside class="cols__side">
+          <h3 class="minihead" data-i18n="perfil.doing.title">Do que eu cuido</h3>
+          <ul class="ticks">
+            <li data-i18n="perfil.doing.1">Pesquisa com usuário e teste de usabilidade</li>
+            <li data-i18n="perfil.doing.2">Fluxo, arquitetura de informação e interface</li>
+            <li data-i18n="perfil.doing.3">Design system: componente, token e documentação</li>
+            <li data-i18n="perfil.doing.4">Design de serviço e jornada ponta a ponta</li>
+            <li data-i18n="perfil.doing.5">Conteúdo de produto e redação</li>
+            <li data-i18n="perfil.doing.6">Planejamento com OKRs e métricas de experiência</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════ trajetória -->
+  <section class="band band--alt" id="trajetoria">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="sechead__num">01</span>
+        <h2 class="sechead__title" data-i18n="traj.title">Trajetória</h2>
+        <p class="sechead__note" data-i18n="traj.note">Sete anos entre a prancheta e o produto.</p>
+      </div>
+
+      <ol class="time">
+        <li class="time__row time__row--lead reveal">
+          <p class="time__when" data-i18n="traj.1.when">Desde 2024</p>
+          <div class="time__what">
+            <h3 data-i18n="traj.1.title">Fundadora, Head of Design e CEO · Serinus Tecnologia</h3>
+            <p class="time__where" data-i18n="traj.1.where">Empresa de tecnologia própria · remoto</p>
+            <p data-i18n="traj.1.body">
+              Montei a empresa e o time do zero absoluto. Respondo pela direção, pelas contas
+              e pelo produto. Formei as equipes de design, produto e marketing, e desenho a
+              experiência e a interface do que a gente constrói. O primeiro produto foi o
+              Papagaio.Bot. Depois de descontinuá-lo, pivotamos: hoje a Serinus constrói o
+              Cuco Calendar.
+            </p>
+          </div>
+        </li>
+
+        <li class="time__row reveal">
+          <p class="time__when" data-i18n="traj.2.when">Desde 2026</p>
+          <div class="time__what">
+            <h3 data-i18n="traj.2.title">Product Owner e Product Designer · Residência Tecnológica em Saúde Digital</h3>
+            <p class="time__where" data-i18n="traj.2.where">InovaUSP e Samsung Ocean · híbrido, São Paulo</p>
+            <p data-i18n="traj.2.body">
+              Programa de seis meses para desenvolver soluções digitais para a saúde, com imersão
+              em ambientes reais de atendimento. Estou na squad de um aplicativo de gestão da saúde
+              da família, em parceria com FAPESP e SUS. Cuido do design system, das entrevistas e
+              dos testes de usabilidade que embasam a interface.
+            </p>
+          </div>
+        </li>
+
+        <li class="time__row reveal">
+          <p class="time__when" data-i18n="traj.3.when">2024 a 2025</p>
+          <div class="time__what">
+            <h3 data-i18n="traj.3.title">Intercâmbio em Design · CIDI UNAM</h3>
+            <p class="time__where" data-i18n="traj.3.where">Centro de Investigaciones de Diseño Industrial · Cidade do México</p>
+            <p data-i18n="traj.3.body">
+              Um ano fora do eixo: design de serviço, UX, fotografia de produto e cor.
+              Voltei falando espanhol com fluência e com outra referência de como se ensina projeto.
+            </p>
+          </div>
+        </li>
+
+        <li class="time__row reveal">
+          <p class="time__when" data-i18n="traj.4.when">2022 a 2024</p>
+          <div class="time__what">
+            <h3 data-i18n="traj.4.title">Customer Success e Educacional · Graphisoft Brasil</h3>
+            <p class="time__where" data-i18n="traj.4.where">Software BIM para arquitetura, engenharia e construção · híbrido, São Paulo</p>
+            <p data-i18n="traj.4.body">
+              Cuidei do sucesso dos estudantes que usam o Archicad na licença gratuita, tratando
+              cada um como cliente. Revisei e afinei conteúdos e artes para o público universitário.
+              Criei produtos digitais e físicos para distribuir entre os estudantes. Conduzi o
+              Programa de Estudantes Embaixadores do Archicad: processo, divulgação e inscrição.
+              Também dei o curso de Archicad para iniciantes na FAU USP.
+            </p>
+          </div>
+        </li>
+
+        <li class="time__row reveal">
+          <p class="time__when" data-i18n="traj.5.when">2019 a 2022</p>
+          <div class="time__what">
+            <h3 data-i18n="traj.5.title">Presidente · FAUUSP Jr.</h3>
+            <p class="time__where" data-i18n="traj.5.where">Empresa júnior de arquitetura, urbanismo e design · USP, São Paulo</p>
+            <p data-i18n="traj.5.body">
+              Fundei o departamento comercial em 2020 e multipliquei a receita por 15,3.
+              Trouxe sucesso do cliente, estratégias de CX e Jobs to Be Done para dentro da casa.
+              Em 2021 assumi a presidência e reescrevi processos internos com design de serviço.
+              Implementei BIM em projetos reais e organizei hackathons, eventos e parcerias.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ═════════════════════════════════════════════════════════════ projetos -->
+  <section class="band" id="projetos">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="sechead__num">02</span>
+        <h2 class="sechead__title" data-i18n="proj.title">Projetos em destaque</h2>
+        <p class="sechead__note" data-i18n="proj.note">Uma seleção recente. O último existe em madeira.</p>
+      </div>
+
+      <!-- ─────────────────────────────────────────────── 01 · Cuco Calendar -->
+      <article class="plate reveal">
+        <header class="plate__head">
+          <span class="plate__num">01</span>
+          <div class="plate__id">
+            <h3 class="plate__title">Cuco Calendar</h3>
+            <p class="plate__role" data-i18n="p1.role">Design de produto e de marca · Serinus Tecnologia</p>
+          </div>
+          <dl class="plate__meta">
+            <div><dt data-i18n="meta.period">Período</dt><dd data-i18n="p1.period">Atual</dd></div>
+            <div><dt data-i18n="meta.kind">Tipo</dt><dd data-i18n="p1.kind">Produto digital</dd></div>
+            <div><dt data-i18n="meta.status">Situação</dt><dd data-i18n="p1.status">No ar</dd></div>
+          </dl>
+        </header>
+
+        <div class="plate__body">
+          <figure class="draw">
+            <svg viewBox="0 0 340 230" role="img" data-i18n-attr="aria-label:p1.alt">
+              <g class="d-thin">
+                <path d="M14 40h56M14 60h56M14 80h56"/>
+                <path d="M70 40c26 0 26 20 52 20M70 60h52M70 80c26 0 26-20 52-20"/>
+              </g>
+              <g class="d-ink">
+                <circle cx="14" cy="40" r="3.2"/><circle cx="14" cy="60" r="3.2"/><circle cx="14" cy="80" r="3.2"/>
+              </g>
+              <text class="d-lab" x="10" y="26" data-i18n="d1.a">várias contas</text>
+              <rect class="d-ink" x="122" y="26" width="150" height="180"/>
+              <g class="d-thin">
+                <path d="M122 46h150M122 78h150M122 110h150M122 142h150M122 174h150"/>
+                <path d="M152 26v180M182 26v180M212 26v180M242 26v180"/>
+              </g>
+              <rect class="d-fill" x="125" y="49" width="24" height="26"/>
+              <rect class="d-fill2" x="185" y="81" width="24" height="42"/>
+              <rect class="d-fill3" x="215" y="113" width="24" height="26"/>
+              <rect class="d-fill" x="245" y="49" width="24" height="26"/>
+              <rect class="d-fill2" x="155" y="145" width="24" height="26"/>
+              <text class="d-lab" x="122" y="20" data-i18n="d1.b">uma tela</text>
+              <g class="d-thin">
+                <path d="M288 26v180M296 40h-8M296 90h-8M296 140h-8M296 190h-8"/>
+              </g>
+              <text class="d-lab" x="284" y="20" data-i18n="d1.c">fusos</text>
+              <g class="d-crim">
+                <path d="M122 214h150" stroke-dasharray="4 4"/>
+                <path d="M122 210v8M272 210v8"/>
+              </g>
+              <text class="d-lab d-lab--crim" x="150" y="228" data-i18n="d1.d">link de disponibilidade</text>
+            </svg>
+          </figure>
+
+          <div class="plate__text">
+            <p class="plate__lead" data-i18n="p1.lead">
+              Um agregador de calendários. Reúne as agendas das contas Google, Microsoft (Outlook)
+              e Apple que a pessoa escolhe conectar, e mostra tudo em uma tela só.
+              É o produto que a Serinus constrói agora.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.pivot">O pivô</h4>
+            <p data-i18n="p1.pivot">
+              O Papagaio.Bot não vingou. Em vez de insistir, encerramos e pivotamos.
+              O Cuco nasceu dessa decisão e de uma lição concreta: no produto anterior
+              passamos tempo demais construindo antes de descobrir que vender seria difícil.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.building">Como estamos construindo</h4>
+            <p data-i18n="p1.building">
+              Discovery e construção acontecem juntos. Cada funcionalidade entra, é testada
+              com usuário e é ajustada. Corrigimos bug e refinamos fluxo no mesmo ritmo em
+              que o produto cresce. A pergunta "alguém quer isso?" vem antes de a tela ficar pronta.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.did">O que eu fiz</h4>
+            <ul class="ticks">
+              <li data-i18n="p1.did.1">Experiência e interface do produto, do fluxo à tela final</li>
+              <li data-i18n="p1.did.2">Identidade visual e design system aplicado ao app e ao site</li>
+              <li data-i18n="p1.did.3">Landing page responsiva e as páginas secundárias</li>
+              <li data-i18n="p1.did.4">Conteúdo de produto: redação de interface e material de divulgação</li>
+            </ul>
+
+            <h4 class="minihead" data-i18n="label.inside">O que tem dentro</h4>
+            <ul class="ticks">
+              <li data-i18n="p1.in.1">Criar, editar e mover eventos de qualquer conta conectada</li>
+              <li data-i18n="p1.in.2">Link de agendamento com horários livres calculados sobre todas as contas</li>
+              <li data-i18n="p1.in.3">Vários fusos horários lado a lado</li>
+              <li data-i18n="p1.in.4">Mostrar ou ocultar cada agenda, inclusive as compartilhadas</li>
+              <li data-i18n="p1.in.5">Aniversários com a idade e cobrança por Pix</li>
+            </ul>
+
+            <p class="plate__where">
+              <span class="plate__where-k" data-i18n="label.platforms">Plataformas</span>
+              <span data-i18n="p1.platforms">web, Windows, macOS, Linux, Android e iOS</span>
+            </p>
+
+            <p class="links">
+              <a href="https://cuco.com.vc/" target="_blank" rel="noopener">cuco.com.vc ↗</a>
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ────────────────────────────────────────────────────────── 02 · ÚMA -->
+      <article class="plate reveal">
+        <header class="plate__head">
+          <span class="plate__num">02</span>
+          <div class="plate__id">
+            <h3 class="plate__title">ÚMA</h3>
+            <p class="plate__role" data-i18n="p2.role">Product Owner e Product Designer · Residência Tecnológica em Saúde Digital</p>
+          </div>
+          <dl class="plate__meta">
+            <div><dt data-i18n="meta.period">Período</dt><dd data-i18n="p2.period">2026</dd></div>
+            <div><dt data-i18n="meta.kind">Tipo</dt><dd data-i18n="p2.kind">Aplicativo móvel</dd></div>
+            <div><dt data-i18n="meta.status">Situação</dt><dd data-i18n="p2.status">Em desenvolvimento</dd></div>
+          </dl>
+        </header>
+
+        <div class="plate__body">
+          <figure class="draw">
+            <svg viewBox="0 0 340 230" role="img" data-i18n-attr="aria-label:p2.alt">
+              <g class="d-ink">
+                <path d="M18 34h44l10 10v46H18z"/><path d="M26 42h40v46H26z" class="d-thin"/>
+              </g>
+              <g class="d-thin"><path d="M32 54h26M32 62h26M32 70h18"/></g>
+              <text class="d-lab" x="18" y="28" data-i18n="d2.a">exame</text>
+              <path class="d-crim" d="M84 64h26M104 59l7 5-7 5"/>
+              <g class="d-crim"><rect x="118" y="34" width="56" height="56" rx="2"/><path d="M118 48h56M132 34v56"/></g>
+              <text class="d-lab d-lab--crim" x="118" y="28" data-i18n="d2.b">OCR + IA</text>
+              <path class="d-crim" d="M182 64h26M202 59l7 5-7 5"/>
+              <g class="d-ink"><rect x="216" y="30" width="74" height="64" rx="2"/></g>
+              <g class="d-thin"><path d="M224 44h58M224 54h58M224 64h40M224 76h50"/></g>
+              <rect class="d-fill2" x="224" y="36" width="26" height="4"/>
+              <text class="d-lab" x="216" y="24" data-i18n="d2.c">ficha organizada</text>
+              <g class="d-thin"><path d="M170 108v18M84 150v-24h172v24M170 126v0"/></g>
+              <circle class="d-crimf" cx="170" cy="104" r="11"/>
+              <text class="d-lab d-lab--crim" x="188" y="108" data-i18n="d2.d">matriarca</text>
+              <g class="d-ink">
+                <circle cx="84" cy="160" r="9"/><circle cx="141" cy="160" r="9"/>
+                <circle cx="198" cy="160" r="9"/><circle cx="256" cy="160" r="9"/>
+              </g>
+              <g class="d-thin"><path d="M141 150v-24M198 150v-24M256 150v-24"/></g>
+              <text class="d-lab" x="66" y="186" data-i18n="d2.e">filhos</text>
+              <text class="d-lab" x="126" y="186" data-i18n="d2.f">cônjuge</text>
+              <text class="d-lab" x="184" y="186" data-i18n="d2.g">pais</text>
+              <text class="d-lab" x="242" y="186" data-i18n="d2.h">ela</text>
+              <path class="d-thin" d="M18 206h304" stroke-dasharray="3 5"/>
+              <text class="d-lab" x="18" y="222" data-i18n="d2.i">uma família, um lugar só</text>
+            </svg>
+          </figure>
+
+          <div class="plate__text">
+            <p class="plate__lead" data-i18n="p2.lead">
+              Um aplicativo para digitalizar e organizar os documentos e exames de saúde da família.
+              O nome vem da samaúma, a árvore que sustenta um pedaço inteiro da floresta em volta dela.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.problem">O problema</h4>
+            <p data-i18n="p2.problem">
+              Em muitas casas há uma pessoa que carrega a saúde de todo mundo: consultas, exames,
+              receitas, histórico dos filhos, do cônjuge, dos pais e o dela. Isso vive espalhado
+              em papel, foto no celular e memória. O ÚMA é desenhado para ela.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.how">Como funciona</h4>
+            <ul class="ticks">
+              <li data-i18n="p2.how.1">OCR lê o documento fotografado e extrai o texto</li>
+              <li data-i18n="p2.how.2">Um agente de IA resume e organiza o que foi lido</li>
+              <li data-i18n="p2.how.3">Tudo se agrupa por pessoa dentro de um perfil de família</li>
+            </ul>
+
+            <h4 class="minihead" data-i18n="label.did">O que eu fiz</h4>
+            <ul class="ticks">
+              <li data-i18n="p2.did.1">Criação e manutenção do design system no Figma</li>
+              <li data-i18n="p2.did.2">Entrevistas e testes de usabilidade para embasar a interface</li>
+              <li data-i18n="p2.did.3">Jornada do usuário, persona e mapa de empatia</li>
+              <li data-i18n="p2.did.4">Condução em Double Diamond e Design Sprint, com Scrum</li>
+            </ul>
+
+            <p class="note" data-i18n="p2.note">
+              O projeto está em desenvolvimento na squad, em parceria com FAPESP e SUS.
+              Ainda não há versão pública.
+            </p>
+
+            <p class="links">
+              <a href="https://residencia.oceanbrasil.com/" target="_blank" rel="noopener">residencia.oceanbrasil.com ↗</a>
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ───────────────────────────────────────────────── 03 · Papagaio.Bot -->
+      <article class="plate reveal">
+        <header class="plate__head">
+          <span class="plate__num">03</span>
+          <div class="plate__id">
+            <h3 class="plate__title">Papagaio.Bot</h3>
+            <p class="plate__role" data-i18n="p3.role">Fundadora e Head of Design · Serinus Tecnologia</p>
+          </div>
+          <dl class="plate__meta">
+            <div><dt data-i18n="meta.period">Período</dt><dd data-i18n="p3.period">2024 a 2026</dd></div>
+            <div><dt data-i18n="meta.kind">Tipo</dt><dd data-i18n="p3.kind">Produto digital</dd></div>
+            <div><dt data-i18n="meta.status">Situação</dt><dd data-i18n="p3.status">Descontinuado</dd></div>
+          </dl>
+        </header>
+
+        <div class="plate__body">
+          <figure class="draw">
+            <svg viewBox="0 0 340 230" role="img" data-i18n-attr="aria-label:p3.alt">
+              <g class="d-ink"><rect x="14" y="24" width="100" height="28" rx="14"/></g>
+              <text class="d-lab d-mid" x="64" y="42" data-i18n="d3.a">mensagem</text>
+              <path class="d-thin" d="M64 52v18"/><path class="d-ink" d="M60 66l4 6 4-6"/>
+              <g class="d-ink"><path d="M64 74l56 30-56 30-56-30z"/></g>
+              <text class="d-lab d-mid" x="64" y="107" data-i18n="d3.b">no roteiro?</text>
+              <path class="d-thin" d="M120 104h48V48h6"/><path class="d-ink" d="M170 44l6 4-6 4"/>
+              <text class="d-lab" x="126" y="96" data-i18n="d3.c">sim</text>
+              <g class="d-ink"><rect x="176" y="30" width="148" height="36" rx="2"/></g>
+              <text class="d-lab d-mid" x="250" y="52" data-i18n="d3.d">responde sozinho</text>
+              <path class="d-thin" d="M64 134v44h104"/><path class="d-crim" d="M170 174l6 4-6 4"/>
+              <text class="d-lab" x="72" y="158" data-i18n="d3.e">não</text>
+              <g class="d-crim"><rect x="176" y="160" width="148" height="36" rx="2"/></g>
+              <text class="d-lab d-lab--crim d-mid" x="250" y="182" data-i18n="d3.f">pausa e chama a pessoa</text>
+              <path class="d-thin" d="M14 212h310" stroke-dasharray="3 5"/>
+              <text class="d-lab" x="14" y="226" data-i18n="d3.i">fluxo montado sem escrever código</text>
+            </svg>
+          </figure>
+
+          <div class="plate__text">
+            <p class="plate__lead" data-i18n="p3.lead">
+              Automação de atendimento e vendas no WhatsApp com IA. Foi o primeiro produto
+              da Serinus e o motivo de eu ter aberto a empresa. Não existe mais.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.led">O que eu liderei</h4>
+            <ul class="ticks">
+              <li data-i18n="p3.led.1">Abertura da empresa e montagem do time, do zero absoluto</li>
+              <li data-i18n="p3.led.2">Formação e condução das equipes de design, produto e marketing</li>
+              <li data-i18n="p3.led.3">Direção de produto: o que entrava, o que ficava de fora, em que ordem</li>
+              <li data-i18n="p3.led.4">Planejamento com OKRs junto do time de desenvolvimento</li>
+              <li data-i18n="p3.led.5">Decisão de encerrar o produto e conduzir o pivô</li>
+            </ul>
+
+            <h4 class="minihead" data-i18n="label.designed">O que eu desenhei</h4>
+            <ul class="ticks">
+              <li data-i18n="p3.des.1">Experiência e interface da extensão para navegador</li>
+              <li data-i18n="p3.des.2">Editor de fluxos de mensagem para quem não programa</li>
+              <li data-i18n="p3.des.3">Landing pages responsivas e fluxos com foco em clareza</li>
+            </ul>
+
+            <h4 class="minihead" data-i18n="label.idea">A ideia</h4>
+            <p data-i18n="p3.idea">
+              Automação de conversa costuma travar no momento em que a pessoa sai do roteiro.
+              O Papagaio.Bot reconhecia esse momento: pausava a conversa e chamava alguém do time.
+              O resto, a parte repetitiva, ele resolvia sozinho.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.ended">Como terminou</h4>
+            <p data-i18n="p3.ended">
+              Construímos muito antes de validar. Quando o produto ficou pronto, vender
+              se mostrou difícil, e a conta não fechava. Encerramos e pivotamos para o
+              Cuco Calendar. Foi a experiência que mais me ensinou sobre empreender:
+              hoje eu valido enquanto construo, e sei a que hora parar.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.recog">Reconhecimento</h4>
+            <p data-i18n="p3.recog">
+              Projeto vencedor da subcategoria de desenho de serviço e experiências no
+              Premio Nacional de Diseño: Diseña México, em 2025.
+            </p>
+
+            <p class="links">
+              <a href="https://papagaio.bot/" target="_blank" rel="noopener">papagaio.bot ↗</a>
+              <a href="https://www.premiodisenamexico.mx/copia-de-finalistas-2025" target="_blank" rel="noopener">Diseña México 2025 ↗</a>
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ────────────────────────────────────────────────── 04 · Espaço 60º -->
+      <article class="plate reveal">
+        <header class="plate__head">
+          <span class="plate__num">04</span>
+          <div class="plate__id">
+            <h3 class="plate__title">Espaço 60º</h3>
+            <p class="plate__role" data-i18n="p4.role">Projeto de concurso · FAUUSP Jr.</p>
+          </div>
+          <dl class="plate__meta">
+            <div><dt data-i18n="meta.period">Período</dt><dd>2020</dd></div>
+            <div><dt data-i18n="meta.kind">Tipo</dt><dd data-i18n="p4.kind">Arquitetura efêmera</dd></div>
+            <div><dt data-i18n="meta.status">Situação</dt><dd data-i18n="p4.status">Selecionado no desafio</dd></div>
+          </dl>
+        </header>
+
+        <div class="plate__body">
+          <figure class="draw">
+            <svg viewBox="0 0 340 230" role="img" data-i18n-attr="aria-label:p4.alt">
+              <text class="d-lab" x="16" y="22" data-i18n="d4.a">planta · módulos a 60º</text>
+              <!-- favo: três hexágonos de topo agudo compartilhando aresta -->
+              <g class="d-ink">
+                <path d="M48 60l26-15 26 15v30l-26 15-26-15z"/>
+                <path d="M74 105l26-15 26 15v30l-26 15-26-15z"/>
+                <path d="M22 105l26-15 26 15v30l-26 15-26-15z"/>
+              </g>
+              <circle class="d-crimf" cx="74" cy="75" r="3"/>
+              <circle class="d-crimf" cx="100" cy="120" r="3"/>
+              <circle class="d-crimf" cx="48" cy="120" r="3"/>
+              <g class="d-crim"><path d="M22 180h104M22 176v8M126 176v8"/></g>
+              <text class="d-lab d-lab--crim d-mid" x="74" y="196" data-i18n="d4.b">distância</text>
+
+              <path class="d-thin" d="M162 34v170" stroke-dasharray="4 4"/>
+              <text class="d-lab" x="180" y="22" data-i18n="d4.c">corte</text>
+              <g class="d-thin"><path d="M246 50v-14M240 42l6-6 6 6"/></g>
+              <g class="d-ink">
+                <path d="M186 86l60-30 60 30"/>
+                <path d="M194 86v66M298 86v66"/>
+                <path d="M180 152h132"/>
+              </g>
+              <text class="d-lab d-mid" x="246" y="80" data-i18n="d4.e">ventilação</text>
+              <g class="d-thin">
+                <circle cx="212" cy="128" r="4"/><path d="M212 133v19"/>
+                <circle cx="246" cy="128" r="4"/><path d="M246 133v19"/>
+                <circle cx="280" cy="128" r="4"/><path d="M280 133v19"/>
+                <path d="M180 160h132" stroke-dasharray="2 3"/>
+              </g>
+              <text class="d-lab d-mid" x="246" y="180" data-i18n="d4.d">ar livre</text>
+              <path class="d-thin" d="M16 212h304" stroke-dasharray="3 5"/>
+              <text class="d-lab" x="16" y="226" data-i18n="d4.f">célula temporária, modular, desmontável</text>
+            </svg>
+          </figure>
+
+          <div class="plate__text">
+            <p class="plate__lead" data-i18n="p4.lead">
+              Uma célula temporária e modular para apoiar o ensino ao ar livre durante a
+              pandemia de covid-19. Estrutura aberta, montada e desmontada no pátio da escola.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.context">Contexto</h4>
+            <p data-i18n="p4.context">
+              O desafio internacional Design for Emergency: Semeando Ideias, promovido pela
+              Northeastern University com o Museu da Casa Brasileira e a FAU USP, pedia respostas
+              de projeto para a emergência sanitária. Foram quarenta propostas inscritas e vinte
+              selecionadas, divididas em quatro categorias. O Espaço 60º entrou pela categoria
+              de apoio comunitário.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.team">Equipe</h4>
+            <p data-i18n="p4.team">
+              Projeto coletivo da FAUUSP Jr., com André Góes, Gabriel Paraizo, Giselle Jensen,
+              Rebecca Cavalcante e eu. O resultado também saiu no Jornal da USP.
+            </p>
+
+            <p class="links">
+              <a href="https://static1.squarespace.com/static/5e6d3182123de724cda7e862/t/5f31b94a1871f80bd07cad4a/1597094223616/Espaco+60_Compressed.pdf" target="_blank" rel="noopener" data-i18n="p4.linkSheet">Prancha de entrega, PDF ↗</a>
+              <a href="https://revistaprojeto.com.br/noticias/resultado-do-desafio-design-for-emergency-semeando-ideias/" target="_blank" rel="noopener" data-i18n="p4.linkResult">Resultado do desafio ↗</a>
+              <a href="https://designforemergency.com/ideas-catalogue" target="_blank" rel="noopener" data-i18n="p4.linkCat">Catálogo de ideias ↗</a>
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ────────────────────────────────────────────── 05 · Blog do Daquisu -->
+      <article class="plate reveal">
+        <header class="plate__head">
+          <span class="plate__num">05</span>
+          <div class="plate__id">
+            <h3 class="plate__title" data-i18n="p5.title">Blog do Daquisu</h3>
+            <p class="plate__role" data-i18n="p5.role">Design de interface · projeto para terceiro</p>
+          </div>
+          <dl class="plate__meta">
+            <div><dt data-i18n="meta.period">Período</dt><dd>2025</dd></div>
+            <div><dt data-i18n="meta.kind">Tipo</dt><dd data-i18n="p5.kind">Site editorial</dd></div>
+            <div><dt data-i18n="meta.status">Situação</dt><dd data-i18n="p5.status">No ar</dd></div>
+          </dl>
+        </header>
+
+        <div class="plate__body">
+          <figure class="draw">
+            <svg viewBox="0 0 340 230" role="img" data-i18n-attr="aria-label:p5.alt">
+              <g class="d-ink"><rect x="16" y="20" width="308" height="190" rx="2"/></g>
+              <path class="d-thin" d="M16 46h308"/>
+              <rect x="28" y="30" width="34" height="7" fill="#3f513d"/>
+              <g class="d-thin"><path d="M232 33h22M262 33h22M292 33h22"/></g>
+              <g class="d-ink"><rect x="28" y="62" width="86" height="130"/></g>
+              <g class="d-thin"><path d="M28 62l86 52M114 62l-86 52"/></g>
+              <rect class="d-fill" x="28" y="122" width="52" height="6"/>
+              <g class="d-thin"><path d="M28 138h86M28 148h72M28 162h34"/></g>
+              <text class="d-lab" x="33" y="186" data-i18n="d5.a">data · tempo</text>
+              <g class="d-ink"><rect x="127" y="62" width="86" height="130"/></g>
+              <g class="d-thin"><path d="M127 62l86 52M213 62l-86 52"/></g>
+              <rect class="d-fill" x="127" y="122" width="62" height="6"/>
+              <g class="d-thin"><path d="M127 138h86M127 148h60M127 162h34"/></g>
+              <text class="d-lab" x="132" y="186" data-i18n="d5.a">data · tempo</text>
+              <g class="d-ink"><rect x="226" y="62" width="86" height="130"/></g>
+              <g class="d-thin"><path d="M226 62l86 52M312 62l-86 52"/></g>
+              <rect class="d-fill" x="226" y="122" width="44" height="6"/>
+              <g class="d-thin"><path d="M226 138h86M226 148h68M226 162h34"/></g>
+              <text class="d-lab" x="231" y="186" data-i18n="d5.a">data · tempo</text>
+              <!-- especificação de cor: a paleta real do site -->
+              <g>
+                <rect x="28" y="196" width="15" height="9" fill="#3f513d"/>
+                <rect x="47" y="196" width="15" height="9" fill="#9bab99"/>
+                <rect x="66" y="196" width="15" height="9" fill="#f9f1dc" stroke="rgba(30,30,30,.4)" stroke-width=".7"/>
+              </g>
+              <text class="d-lab" x="89" y="204" data-i18n="d5.c">verde e bege</text>
+              <g class="d-crim"><path d="M28 220h86M28 216v8M114 216v8"/></g>
+              <text class="d-lab d-lab--crim" x="124" y="223" data-i18n="d5.b">medida de coluna</text>
+            </svg>
+          </figure>
+
+          <div class="plate__text">
+            <p class="plate__lead" data-i18n="p5.lead">
+              Design de interface para um blog pessoal: textos sobre vida universitária,
+              tecnologia, intercâmbio e o que mais couber. Conteúdo em primeira pessoa,
+              publicado sem pressa.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.brief">O pedido</h4>
+            <p data-i18n="p5.brief">
+              O Daquisu pediu um site com cara de manual e artesanal, que não parecesse
+              saído de um template. E que fosse confortável de ler: nada de interface
+              disputando atenção com o texto.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.visual">Decisões visuais</h4>
+            <ul class="ticks">
+              <li data-i18n="p5.vis.1">Ícones e logotipo desenhados à mão por mim, um a um</li>
+              <li data-i18n="p5.vis.2">Verde como cor da marca, a cor favorita do Daquisu</li>
+              <li data-i18n="p5.vis.3">Bege no fundo, para lembrar a folha de papel</li>
+              <li data-i18n="p5.vis.4">Hierarquia levada pela tipografia e pelo espaço, sem cor competindo</li>
+            </ul>
+
+            <h4 class="minihead" data-i18n="label.did">O que eu fiz</h4>
+            <ul class="ticks">
+              <li data-i18n="p5.did.1">Navegação e arquitetura das seções</li>
+              <li data-i18n="p5.did.2">Lista de artigos em cartões com imagem, título, data e tempo de leitura</li>
+              <li data-i18n="p5.did.3">Escala tipográfica e medida de coluna para leitura longa</li>
+              <li data-i18n="p5.did.4">Sistema de categorias e as peças gráficas do site</li>
+            </ul>
+
+            <p class="links">
+              <a href="https://daquisu.com/" target="_blank" rel="noopener">daquisu.com ↗</a>
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ──────────────────────────────────────────────────── 06 · Mobiliário -->
+      <article class="plate reveal">
+        <header class="plate__head">
+          <span class="plate__num">06</span>
+          <div class="plate__id">
+            <h3 class="plate__title" data-i18n="p6.title">Mesa de trabalho e guarda-roupas</h3>
+            <p class="plate__role" data-i18n="p6.role">Projeto de mobiliário e desenho técnico · freelance</p>
+          </div>
+          <dl class="plate__meta">
+            <div><dt data-i18n="meta.kind">Tipo</dt><dd data-i18n="p6.kind">Projeto físico</dd></div>
+            <div><dt data-i18n="meta.scope">Escopo</dt><dd data-i18n="p6.scope">Suíte de 3,88 × 3,48 m</dd></div>
+            <div><dt data-i18n="meta.status">Situação</dt><dd data-i18n="p6.status">Construído</dd></div>
+          </dl>
+        </header>
+
+        <div class="plate__body">
+          <figure class="draw">
+            <svg viewBox="0 0 340 230" role="img" data-i18n-attr="aria-label:p6.alt">
+              <text class="d-lab" x="16" y="22" data-i18n="d6.a">elevação · guarda-roupas</text>
+              <g class="d-ink"><rect x="16" y="32" width="136" height="150"/></g>
+              <g class="d-thin">
+                <path d="M50 32v150M84 32v150M118 32v150"/>
+                <path d="M16 74h136M16 122h136"/>
+                <path d="M28 96h10M62 96h10M96 96h10M130 96h10"/>
+              </g>
+              <g class="d-thin"><path d="M20 40h28M20 46h20"/></g>
+              <g class="d-crim"><path d="M16 196h136M16 192v8M152 192v8"/></g>
+              <g class="d-crim"><path d="M162 32v150M158 32h8M158 182h8"/></g>
+              <text class="d-lab" x="188" y="22" data-i18n="d6.b">elevação · mesa</text>
+              <g class="d-ink">
+                <path d="M188 96h136v14H188z"/>
+                <path d="M196 110v58M316 110v58M188 168h136"/>
+                <rect x="212" y="118" width="52" height="20"/>
+                <rect x="212" y="142" width="52" height="20"/>
+              </g>
+              <g class="d-thin"><path d="M232 128h12M232 152h12M188 82h136M280 96v-14"/></g>
+              <text class="d-lab" x="188" y="76" data-i18n="d6.c">prateleira</text>
+              <circle class="d-crim" cx="252" cy="114" r="15"/>
+              <path class="d-crim" d="M263 125l14 14"/>
+              <text class="d-lab d-lab--crim" x="281" y="143" data-i18n="d6.d">det. 1</text>
+              <g class="d-crim"><path d="M188 196h136M188 192v8M324 192v8"/></g>
+              <text class="d-lab" x="16" y="226" data-i18n="d6.e">esquema · cotas na prancha original</text>
+            </svg>
+          </figure>
+
+          <div class="plate__text">
+            <p class="plate__lead" data-i18n="p6.lead">
+              Dois móveis sob medida para a suíte de uma cliente, de 3,88 por 3,48 metros:
+              uma mesa de trabalho e um guarda-roupas. Único projeto desta lista que existe
+              em madeira.
+            </p>
+
+            <h4 class="minihead" data-i18n="label.did">O que eu fiz</h4>
+            <ul class="ticks">
+              <li data-i18n="p6.did.1">Levantamento do ambiente e definição do programa com a cliente</li>
+              <li data-i18n="p6.did.2">Projeto das duas peças, com portas abertas e fechadas estudadas</li>
+              <li data-i18n="p6.did.3">Pranchas técnicas: plantas, cortes, isométricas e detalhes construtivos</li>
+              <li data-i18n="p6.did.4">Documentação para o marceneiro executar sem depender de mim</li>
+            </ul>
+
+            <h4 class="minihead" data-i18n="label.result">Resultado</h4>
+            <p data-i18n="p6.result">
+              Os móveis foram montados por um profissional a partir das pranchas.
+              O projeto se manteve quase inteiro. Mudaram as cores, entraram gavetas na
+              mesa e o espelho do guarda-roupas não foi instalado.
+            </p>
+
+            <p class="links">
+              <a href="/mesa-trabalho-e-guarda-roupas/" data-i18n="p6.link">Ver as pranchas técnicas e as fotos do resultado ↗</a>
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════ método -->
+  <section class="band band--alt" id="metodo">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="sechead__num">03</span>
+        <h2 class="sechead__title" data-i18n="met.title">Como eu trabalho</h2>
+      </div>
+
+      <div class="grid3">
+        <div class="card reveal">
+          <h3 class="minihead" data-i18n="met.1.title">Design e UX</h3>
+          <p data-i18n="met.1.body">
+            Experiência do usuário e da pessoa cliente, design de serviço, interface,
+            pesquisa, wireframe, protótipo web e mobile, design system e conteúdo de produto.
+          </p>
+        </div>
+        <div class="card reveal">
+          <h3 class="minihead" data-i18n="met.2.title">Métodos</h3>
+          <p data-i18n="met.2.body">
+            Design Thinking, Double Diamond, Design Sprint e Scrum. Jornada do usuário,
+            mapa de empatia, service blueprint e persona. OKRs para planejar e
+            CSAT, CES, CR e NPS para medir.
+          </p>
+        </div>
+        <div class="card reveal">
+          <h3 class="minihead" data-i18n="met.3.title">Ferramentas</h3>
+          <p data-i18n="met.3.body">
+            Figma, Adobe Creative Suite, Google Workspace e Microsoft Office, Typeform,
+            GitHub, Python e HTML/CSS. Archicad, do tempo de prancheta, que ainda uso.
+          </p>
+        </div>
+      </div>
+
+      <div class="split">
+        <div>
+          <h3 class="minihead" data-i18n="met.edu.title">Formação</h3>
+          <ul class="deflist">
+            <li>
+              <span class="deflist__k" data-i18n="met.edu.1k">2019 a 2026</span>
+              <span class="deflist__v" data-i18n="met.edu.1">Arquitetura, Urbanismo e Design · FAU USP, São Paulo</span>
+            </li>
+            <li>
+              <span class="deflist__k" data-i18n="met.edu.2k">2024 a 2025</span>
+              <span class="deflist__v" data-i18n="met.edu.2">Intercâmbio em Design · CIDI UNAM, Cidade do México</span>
+            </li>
+            <li>
+              <span class="deflist__k" data-i18n="met.edu.3k">2014 a 2016</span>
+              <span class="deflist__v" data-i18n="met.edu.3">Técnico em Enfermagem · Cotuca, Unicamp, Campinas</span>
+            </li>
+          </ul>
+
+          <h3 class="minihead" data-i18n="met.lang.title">Idiomas</h3>
+          <ul class="deflist">
+            <li><span class="deflist__k" data-i18n="met.lang.pt">Português</span><span class="deflist__v" data-i18n="met.lang.ptv">Nativo</span></li>
+            <li><span class="deflist__k" data-i18n="met.lang.en">Inglês</span><span class="deflist__v" data-i18n="met.lang.env">Fluente</span></li>
+            <li><span class="deflist__k" data-i18n="met.lang.es">Espanhol</span><span class="deflist__v" data-i18n="met.lang.esv">Fluente</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="minihead" data-i18n="met.recog.title">Reconhecimentos e participações</h3>
+          <ul class="deflist">
+            <li>
+              <span class="deflist__k">2025</span>
+              <span class="deflist__v" data-i18n="met.recog.1">Premio Nacional de Diseño, Diseña México: vencedora na subcategoria de desenho de serviço e experiências</span>
+            </li>
+            <li>
+              <span class="deflist__k">2025</span>
+              <span class="deflist__v" data-i18n="met.recog.2">Service Design Network: Young Talent Board, participação remota</span>
+            </li>
+            <li>
+              <span class="deflist__k">2023</span>
+              <span class="deflist__v" data-i18n="met.recog.3">ARQUISUR: coleta e desenvolvimento de dados de São Paulo</span>
+            </li>
+            <li>
+              <span class="deflist__k">2023</span>
+              <span class="deflist__v" data-i18n="met.recog.4">Instrutora do curso de Archicad para iniciantes na FAU USP</span>
+            </li>
+            <li>
+              <span class="deflist__k">2020</span>
+              <span class="deflist__v" data-i18n="met.recog.5">Design for Emergency: projeto selecionado e publicação no Jornal da USP</span>
+            </li>
+            <li>
+              <span class="deflist__k">2020</span>
+              <span class="deflist__v" data-i18n="met.recog.6">Hackathon NASA Space Apps, desafio covid-19: protótipo de um vestível que transmite batimentos</span>
+            </li>
+            <li class="deflist__ph">
+              <span class="deflist__k">·</span>
+              <span class="deflist__v" data-i18n="met.recog.ph">Espaço reservado para prova social futura</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════ contato -->
+  <section class="band cta" id="contato">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="sechead__num">04</span>
+        <h2 class="sechead__title" data-i18n="cta.title">Contato</h2>
+      </div>
+
+      <p class="cta__lead" data-i18n="cta.lead">
+        Se algo aqui conversa com o que você está construindo, me escreva.
+        Respondo em português, inglês ou espanhol.
+      </p>
+
+      <ul class="contact">
+        <li><span class="contact__k" data-i18n="cta.mail">E-mail</span><a href="mailto:contato@tiemyhiga.com">contato@tiemyhiga.com</a></li>
+        <li><span class="contact__k">LinkedIn</span><a href="https://www.linkedin.com/in/tiemyhiga/" target="_blank" rel="noopener">in/tiemyhiga ↗</a></li>
+        <li><span class="contact__k">Instagram</span><a href="https://www.instagram.com/tiemyhiga/" target="_blank" rel="noopener">@tiemyhiga ↗</a></li>
+        <li><span class="contact__k" data-i18n="cta.city">Cidade</span><span data-i18n="cta.cityv">Campinas, SP, Brasil</span></li>
+      </ul>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <p>© <span id="year">2026</span> Tiemy Higa</p>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

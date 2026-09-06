@@ -1,4 +1,4 @@
-/* Tiemy Higa — vitrine de projetos · i18n
+﻿/* Tiemy Higa — vitrine de projetos · i18n
  * Dicionários inline (não buscados por fetch) e script clássico, sem módulo,
  * para a página também funcionar aberta direto do disco (file://).
  * As chaves seguem a ordem do DOM em index.html.
@@ -35,9 +35,10 @@
 
     'hero.eyebrow': 'Designer de produto e de serviço · Campinas, Brasil',
     'hero.lead':
-      'Desenho produtos digitais e os serviços em volta deles. Vim da arquitetura, na FAU USP, e trouxe de lá o desenho técnico: medir antes de cortar, detalhar antes de montar. Hoje aplico isso em pesquisa, interface e design system.',
-    'hero.ctaPrimary': 'Ver os seis projetos',
+      'Designer que cria experiências digitais acessíveis e centradas no ser humano. Liderei projetos, desenvolvi produtos do zero e comuniquei ideias entre equipes multidisciplinares.',
+    'hero.ctaPrimary': 'Ver os projetos',
     'hero.ctaSecondary': 'Falar comigo',
+    'hero.photoAlt': 'Retrato de Tiemy Higa',
 
     'stamp.now.k': 'Agora',
     'stamp.now.v': 'Fundadora, Head of Design e CEO · Serinus Tecnologia',
@@ -98,8 +99,8 @@
     'traj.5.body':
       'Fundei o departamento comercial em 2020 e multipliquei a receita por 15,3. Trouxe sucesso do cliente, estratégias de CX e Jobs to Be Done para dentro da casa. Em 2021 assumi a presidência e reescrevi processos internos com design de serviço. Implementei BIM em projetos reais e organizei hackathons, eventos e parcerias.',
 
-    'proj.title': 'Seis projetos',
-    'proj.note': 'Cinco digitais e um construído em madeira.',
+    'proj.title': 'Projetos em destaque',
+    'proj.note': 'Uma seleção recente. O último existe em madeira.',
 
     'meta.period': 'Período',
     'meta.kind': 'Tipo',
@@ -287,9 +288,6 @@
     'cta.mail': 'E-mail',
     'cta.city': 'Cidade',
     'cta.cityv': 'Campinas, SP, Brasil',
-    'cta.feedback': 'Deixar um comentário: [LINK-FEEDBACK]',
-
-    'foot.note': 'Página feita à mão, em HTML e CSS.',
   },
 
   /* ═══════════════════════════════════════════════════ english (US) ══ */
@@ -310,9 +308,10 @@
 
     'hero.eyebrow': 'Product and service designer · Campinas, Brazil',
     'hero.lead':
-      'I design digital products and the services around them. I came from architecture, at FAU USP, and brought technical drawing with me: measure before you cut, detail before you build. Today that goes into research, interface and design systems.',
-    'hero.ctaPrimary': 'See the six projects',
+      'A designer who creates accessible digital experiences centred on the person using them. I have led projects, built products from zero and carried ideas across multidisciplinary teams.',
+    'hero.ctaPrimary': 'See the projects',
     'hero.ctaSecondary': 'Get in touch',
+    'hero.photoAlt': 'Portrait of Tiemy Higa',
 
     'stamp.now.k': 'Now',
     'stamp.now.v': 'Founder, Head of Design and CEO · Serinus Tecnologia',
@@ -373,8 +372,8 @@
     'traj.5.body':
       'I founded the sales department in 2020 and multiplied revenue by 15.3. I brought customer success, CX strategy and Jobs to Be Done into the house. In 2021 I took over as president and rewrote internal processes using service design. I put BIM to work on real projects and organised hackathons, events and partnerships.',
 
-    'proj.title': 'Six projects',
-    'proj.note': 'Five digital, one built in wood.',
+    'proj.title': 'Selected projects',
+    'proj.note': 'A recent selection. The last one exists in wood.',
 
     'meta.period': 'Period',
     'meta.kind': 'Type',
@@ -562,9 +561,6 @@
     'cta.mail': 'Email',
     'cta.city': 'City',
     'cta.cityv': 'Campinas, SP, Brazil',
-    'cta.feedback': 'Leave a comment: [LINK-FEEDBACK]',
-
-    'foot.note': 'Page made by hand, in HTML and CSS.',
   },
 
   /* ══════════════════════════════════════ español (Latinoamérica) ══ */
@@ -585,9 +581,10 @@
 
     'hero.eyebrow': 'Diseñadora de producto y de servicio · Campinas, Brasil',
     'hero.lead':
-      'Diseño productos digitales y los servicios que los rodean. Vengo de la arquitectura, en la FAU USP, y de ahí traje el dibujo técnico: medir antes de cortar, detallar antes de armar. Hoy eso va a la investigación, la interfaz y el design system.',
-    'hero.ctaPrimary': 'Ver los seis proyectos',
+      'Diseñadora que crea experiencias digitales accesibles y centradas en el ser humano. Lideré proyectos, desarrollé productos desde cero y comuniqué ideas entre equipos multidisciplinarios.',
+    'hero.ctaPrimary': 'Ver los proyectos',
     'hero.ctaSecondary': 'Hablemos',
+    'hero.photoAlt': 'Retrato de Tiemy Higa',
 
     'stamp.now.k': 'Ahora',
     'stamp.now.v': 'Fundadora, Head of Design y CEO · Serinus Tecnologia',
@@ -648,8 +645,8 @@
     'traj.5.body':
       'Fundé el área comercial en 2020 y multipliqué los ingresos por 15,3. Traje customer success, estrategias de CX y Jobs to Be Done a la casa. En 2021 asumí la presidencia y reescribí los procesos internos con diseño de servicio. Implementé BIM en proyectos reales y organicé hackathons, eventos y alianzas.',
 
-    'proj.title': 'Seis proyectos',
-    'proj.note': 'Cinco digitales y uno construido en madera.',
+    'proj.title': 'Proyectos destacados',
+    'proj.note': 'Una selección reciente. El último existe en madera.',
 
     'meta.period': 'Período',
     'meta.kind': 'Tipo',
@@ -837,9 +834,6 @@
     'cta.mail': 'Correo',
     'cta.city': 'Ciudad',
     'cta.cityv': 'Campinas, SP, Brasil',
-    'cta.feedback': 'Dejar un comentario: [LINK-FEEDBACK]',
-
-    'foot.note': 'Página hecha a mano, en HTML y CSS.',
   },
 
   };
